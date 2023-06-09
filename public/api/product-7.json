@@ -1,0 +1,21 @@
+
+  {
+    "id": "product7",
+    "name": "Product 7",
+    "slug": "product-7",
+    "description": "",
+    "image": {
+      "id": 1,
+      "thumbnail": "/assets/images/products/107 .png",
+      "original": "/assets/images/products/107 .png"
+    },
+    "gallery": [
+      {
+        "id": 1,
+        "original": "/assets/images/products/107 .png",
+        "thumbnail": "/assets/images/products/107 .png"
+      }
+   
+    ]
+  
+  }

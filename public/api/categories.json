@@ -1,0 +1,57 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Category 1",
+      "slug": "cat-1",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/fresh-vegetables.png",
+        "original": "/assets/images/category/fresh-vegetables.png"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Category 2",
+      "slug": "cat-2",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/diet-foods.png",
+        "original": "/assets/images/category/diet-foods.png"
+      }
+      
+    },
+    {
+      "id": 3,
+      "name": "Category 3",
+      "slug": "cat-3",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/diet-nutrition.png",
+        "original": "/assets/images/category/diet-nutrition.png"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Category 4",
+      "slug": "cat-4",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/fast-food.png",
+        "original": "/assets/images/category/fast-food.png"
+      }
+     
+    },
+    {
+      "id": 5,
+      "name": "Category 5",
+      "slug": "cat-5",
+      "image": {
+        "id": 1,
+        "thumbnail": "/assets/images/category/fruits-items.png",
+        "original": "/assets/images/category/fruits-items.png"
+      }    
+    }
+ 
+  ]
+}
