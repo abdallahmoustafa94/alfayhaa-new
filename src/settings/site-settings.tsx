@@ -10,8 +10,8 @@ export const siteSettings = {
   description:
     'مصنع الفيحاء للبلاستك |نوفر لعملائنا منتجات وخدمات صناعية ذات جودة عالية تتواكب مع تطلُّعاتهم مقابل أسعارٍ منافِسة',
   author: {
-    name: 'RedQ, Inc.',
-    websiteUrl: 'https://redq.io',
+    name: 'Alfayhaa Plastic',
+    websiteUrl: '#',
     address: '',
   },
   logo: {
