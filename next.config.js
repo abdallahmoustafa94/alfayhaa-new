@@ -12,4 +12,7 @@ module.exports = withPWA({
   typescript: {
     ignoreBuildErrors: true,
   },
+  devServer: {
+    port: 80,
+  },
 });
