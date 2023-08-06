@@ -19,7 +19,6 @@ const Layout: React.FC = ({ children }) => {
       {highlightedBar !== 'true' && (
         <HighlightedBar onClose={() => setHighlightedBar('true')}>
           <div className="flex items-center">
-         
             <p
               dangerouslySetInnerHTML={{
                 __html: t('text-highlighted-bar'),
@@ -32,6 +31,8 @@ const Layout: React.FC = ({ children }) => {
       {/* End of highlighted bar  */}
 
       <Header />
+      <MobileNavigation />
+
       <main
         className="relative flex-grow"
         style={{
@@ -41,7 +42,6 @@ const Layout: React.FC = ({ children }) => {
         {children}
       </main>
       <Footer />
-      <MobileNavigation />
     </div>
   );
 };

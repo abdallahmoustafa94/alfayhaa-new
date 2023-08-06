@@ -39,6 +39,8 @@ const Layout: React.FC = ({ children }) => {
       {/* End of highlighted bar  */}
 
       <Header />
+      <MobileNavigation />
+
       <main
         className="relative flex-grow"
         style={{
@@ -48,7 +50,6 @@ const Layout: React.FC = ({ children }) => {
         {children}
       </main>
       <Footer />
-      <MobileNavigation />
     </div>
   );
 };

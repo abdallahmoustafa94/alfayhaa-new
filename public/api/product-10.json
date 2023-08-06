@@ -1,0 +1,18 @@
+{
+  "id": "product10",
+  "name": "Product 10",
+  "slug": "product-10",
+  "description": "",
+  "image": {
+    "id": 2,
+    "thumbnail": "/assets/images/products/110.png",
+    "original": "/assets/images/products/110.png"
+  },
+  "gallery": [
+    {
+      "id": 2,
+      "original": "/assets/images/products/110.png",
+      "thumbnail": "/assets/images/products/110.png"
+    }
+  ]
+}

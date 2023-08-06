@@ -42,17 +42,16 @@ const Header: React.FC = () => {
     openModal('LOGIN_VIEW');
   }
 
-
-interface CopyrightProps {
-  payment?: {
-    id: string | number;
-    path?: string;
-    name: string;
-    image: string;
-    width: number;
-    height: number;
-  }[];
-}
+  interface CopyrightProps {
+    payment?: {
+      id: string | number;
+      path?: string;
+      name: string;
+      image: string;
+      width: number;
+      height: number;
+    }[];
+  }
 
   return (
     <header
@@ -111,7 +110,6 @@ interface CopyrightProps {
             />
             {/* End of main menu */}
 
-         
             {/* End of conditional search  */}
 
             <div className="ms-auto flex items-center flex-shrink-0">
@@ -125,7 +123,7 @@ interface CopyrightProps {
                   className="outline-none me-6 w-12 md:w-14 h-full flex items-center justify-center transition duration-200 ease-in-out hover:text-heading focus:outline-none"
                 >
                   {/* <SearchIcon className="w-[22px] h-[22px] text-skin-base text-opacity-40" /> */}
-                </button> 
+                </button>
                 {/* End of search handler btn
 
                 {/* <CartButton /> */}
