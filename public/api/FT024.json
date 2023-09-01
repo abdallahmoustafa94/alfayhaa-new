@@ -1,0 +1,21 @@
+{
+  "id": "product35",
+  "name": "FT024",
+  "slug": "FT024",
+  "size": "92.5 * 47",
+  "quantity": "1000",
+  "madeFrom": "P.P",
+  "description": "Hot & Cold",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/135.png",
+    "original": "/assets/images/products/135.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/135.png",
+      "thumbnail": "/assets/images/products/135.png"
+    }
+  ]
+}

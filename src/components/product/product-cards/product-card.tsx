@@ -46,7 +46,16 @@ function RenderPopupOrAddToCart({ data }: { data: Product }) {
   return <AddToCart data={data} />;
 }
 const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
-  const { name, image, unit, product_type } = product ?? {};
+  const {
+    name,
+    image,
+    unit,
+    product_type,
+    description,
+    size,
+    quantity,
+    madeFrom,
+  } = product ?? {};
   const { openModal } = useModalAction();
   const { t } = useTranslation('common');
   const { price, basePrice, discount } = usePrice({
@@ -87,32 +96,28 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
           />
         </div>
         <div className="w-full h-full absolute top-0 pt-2.5 md:pt-3.5 px-3 md:px-4 lg:px-[18px] z-10 -mx-0.5 sm:-mx-1">
-          {/* {discount && (
-            <span className="text-[11px] md:text-xs font-bold text-skin-inverted uppercase inline-block bg-skin-primary rounded-full px-2.5 pt-1 pb-[3px] mx-0.5 sm:mx-1">
-              {t('text-on-sale')}
-            </span>
-          )} */}
-          <div className="inline-block product-count-button-position">
-            {/* <RenderPopupOrAddToCart data={product} /> */}
-          </div>
+          <div className="inline-block product-count-button-position"></div>
         </div>
       </div>
 
       <div className="flex flex-col px-3 md:px-4 lg:px-[18px] pb-5 lg:pb-6 lg:pt-1.5 h-full">
-        <div className="space-s-2 mb-1 lg:mb-1.5">
-          {/* <span className="inline-block font-semibold text-sm sm:text-15px lg:text-base text-skin-base">
-            {product_type === 'variable' ? `${minPrice} - ${maxPrice}` : price}
-          </span> */}
-          {/* {basePrice && (
-            <del className="text-sm text-skin-base text-opacity-70">
-              {basePrice}
-            </del>
-          )} */}
-        </div>
+        <div className="space-s-2 mb-1 lg:mb-1.5"></div>
         <h2 className="text-skin-base text-13px sm:text-sm lg:text-15px leading-5 sm:leading-6 mb-1.5">
           {name}
         </h2>
-        {/* <div className="text-13px sm:text-sm mt-auto">{unit}</div> */}
+        <div className="text-13px sm:text-sm mt-auto">{description}</div>
+        <div className="flex justify-between items-center mt-3">
+          <div className="text-13px sm:text-sm">Size</div>
+          <div className="text-13px sm:text-sm text-left">{size}</div>
+        </div>
+        <div className="flex justify-between items-center mt-3">
+          <div className="text-13px sm:text-sm">Quantity</div>
+          <div className="text-13px sm:text-sm text-left">{quantity}</div>
+        </div>
+        <div className="flex justify-between items-center mt-3">
+          <div className="text-13px sm:text-sm">Made From</div>
+          <div className="text-13px sm:text-sm text-left">{madeFrom}</div>
+        </div>
       </div>
     </article>
   );

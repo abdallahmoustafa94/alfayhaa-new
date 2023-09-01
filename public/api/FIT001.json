@@ -1,0 +1,21 @@
+{
+  "id": "product23",
+  "name": "FIT001",
+  "slug": "product-23",
+  "size": "73.5 * 46.5",
+  "quantity": "1500",
+  "madeFrom": "P.P",
+  "description": "Weldable Product",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/123.png",
+    "original": "/assets/images/products/123.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/123.png",
+      "thumbnail": "/assets/images/products/123.png"
+    }
+  ]
+}

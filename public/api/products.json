@@ -1,9 +1,12 @@
 [
   {
     "id": "product1",
-    "name": "Product 1",
-    "slug": "product-1",
-    "description": "",
+    "name": "FIW003",
+    "slug": "FIW003",
+    "size": "73.5 * 64.5",
+    "quantity": "1200",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/101.png",
@@ -19,9 +22,12 @@
   },
   {
     "id": "product2",
-    "name": "Product 2",
-    "slug": "product-2",
-    "description": "",
+    "name": "FW002",
+    "slug": "FW002",
+    "size": "70 * 70",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/102.png",
@@ -37,9 +43,12 @@
   },
   {
     "id": "product3",
-    "name": "Product 3",
-    "slug": "product-3",
-    "description": "",
+    "name": "FIW002",
+    "slug": "FIW002",
+    "size": "73.5 * 51.5",
+    "quantity": "1500",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/103.png",
@@ -55,9 +64,12 @@
   },
   {
     "id": "product4",
-    "name": "Product 4",
-    "slug": "product-4",
-    "description": "",
+    "name": "FIT002",
+    "slug": "FIT002",
+    "size": "73.5 * 51.5",
+    "quantity": "1500",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/104.png",
@@ -73,9 +85,12 @@
   },
   {
     "id": "product5",
-    "name": "Product 5",
-    "slug": "product-5",
-    "description": "",
+    "name": "FW021",
+    "slug": "FW021",
+    "size": "92.5 * 60.5",
+    "quantity": "1000 - 1500",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/105.png",
@@ -91,9 +106,12 @@
   },
   {
     "id": "product6",
-    "name": "Product 6",
-    "slug": "product-6",
-    "description": "",
+    "name": "FT009",
+    "slug": "FT009",
+    "size": "73.5 * 31.5",
+    "quantity": "2000",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/106.png",
@@ -107,29 +125,15 @@
       }
     ]
   },
-  {
-    "id": "product7",
-    "name": "Product 7",
-    "slug": "product-7",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/107.png",
-      "original": "/assets/images/products/107.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/107.png",
-        "thumbnail": "/assets/images/products/107.png"
-      }
-    ]
-  },
+
   {
     "id": "product8",
-    "name": "Product 8",
-    "slug": "product-8",
-    "description": "",
+    "name": "FT006",
+    "slug": "FT006",
+    "size": "73.5 * 92.5",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/108.png",
@@ -145,9 +149,12 @@
   },
   {
     "id": "product9",
-    "name": "Product 9",
+    "name": "FW001",
     "slug": "product-9",
-    "description": "",
+    "size": "70 * 79",
+    "quantity": "2000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/109.png",
@@ -163,9 +170,12 @@
   },
   {
     "id": "product10",
-    "name": "Product 10",
-    "slug": "product-10",
-    "description": "",
+    "name": "FT017",
+    "slug": "FT017",
+    "size": "92.5 * 70",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/110.png",
@@ -179,29 +189,15 @@
       }
     ]
   },
-  {
-    "id": "product11",
-    "name": "Product 11",
-    "slug": "product-11",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/111.png",
-      "original": "/assets/images/products/111.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/111.png",
-        "thumbnail": "/assets/images/products/111.png"
-      }
-    ]
-  },
+
   {
     "id": "product12",
-    "name": "Product 12",
-    "slug": "product-12",
-    "description": "",
+    "name": "FW017",
+    "slug": "FW017",
+    "size": "92.5 * 70",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/112.png",
@@ -217,8 +213,11 @@
   },
   {
     "id": "product13",
-    "name": "Product 13",
-    "slug": "product-13",
+    "name": "FT022",
+    "slug": "FT022",
+    "size": "92.5 * 55",
+    "quantity": "1000 - 1500",
+    "madeFrom": "P.P",
     "description": "",
     "image": {
       "id": 1,
@@ -235,9 +234,12 @@
   },
   {
     "id": "product14",
-    "name": "Product 14",
-    "slug": "product-14",
-    "description": "",
+    "name": "FB009",
+    "slug": "FB009",
+    "size": "73.5 * 31.5",
+    "quantity": "2000",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/114.png",
@@ -253,8 +255,11 @@
   },
   {
     "id": "product15",
-    "name": "Product 15",
-    "slug": "product-15",
+    "name": "FT005",
+    "slug": "FT005",
+    "size": "73.5 * 85.5",
+    "quantity": "1000",
+    "madeFrom": "P.P",
     "description": "",
     "image": {
       "id": 1,
@@ -271,9 +276,12 @@
   },
   {
     "id": "product16",
-    "name": "Product 16",
-    "slug": "product-16",
-    "description": "",
+    "name": "FT021",
+    "slug": "FT021",
+    "size": "92.5 * 60.5",
+    "quantity": "1000 - 1500",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/116.png",
@@ -287,29 +295,15 @@
       }
     ]
   },
-  {
-    "id": "product17",
-    "name": "Product 17",
-    "slug": "product-17",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/117.png",
-      "original": "/assets/images/products/117.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/117.png",
-        "thumbnail": "/assets/images/products/117.png"
-      }
-    ]
-  },
+
   {
     "id": "product18",
-    "name": "Product 18",
+    "name": "FT004",
     "slug": "product-18",
-    "description": "",
+    "size": "73.5 * 98",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/118.png",
@@ -325,9 +319,12 @@
   },
   {
     "id": "product19",
-    "name": "Product 19",
-    "slug": "product-19",
-    "description": "",
+    "name": "FW004",
+    "slug": "FW004",
+    "size": "73.5 * 98",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/119.png",
@@ -341,29 +338,15 @@
       }
     ]
   },
-  {
-    "id": "product20",
-    "name": "Product 20",
-    "slug": "product-20",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/120.png",
-      "original": "/assets/images/products/120.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/120.png",
-        "thumbnail": "/assets/images/products/120.png"
-      }
-    ]
-  },
+
   {
     "id": "product21",
-    "name": "Product 21",
-    "slug": "product-21",
-    "description": "",
+    "name": "FIW004",
+    "slug": "FIW004",
+    "size": "73.5 * 87",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/121.png",
@@ -377,29 +360,15 @@
       }
     ]
   },
-  {
-    "id": "product22",
-    "name": "Product 22",
-    "slug": "product-22",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/122.png",
-      "original": "/assets/images/products/122.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/122.png",
-        "thumbnail": "/assets/images/products/122.png"
-      }
-    ]
-  },
+
   {
     "id": "product23",
-    "name": "Product 23",
+    "name": "FIT001",
     "slug": "product-23",
-    "description": "",
+    "size": "73.5 * 46.5",
+    "quantity": "1500",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/123.png",
@@ -415,9 +384,12 @@
   },
   {
     "id": "product24",
-    "name": "Product 24",
+    "name": "FT013",
     "slug": "product-24",
-    "description": "",
+    "size": "92.5 * 108",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/124.png",
@@ -431,29 +403,15 @@
       }
     ]
   },
-  {
-    "id": "product25",
-    "name": "Product 25",
-    "slug": "product-25",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/125.png",
-      "original": "/assets/images/products/125.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/125.png",
-        "thumbnail": "/assets/images/products/125.png"
-      }
-    ]
-  },
+
   {
     "id": "product26",
-    "name": "Product 26",
-    "slug": "product-26",
-    "description": "",
+    "name": "FJ002",
+    "slug": "FJ002",
+    "size": "39.2 * 76.6",
+    "quantity": "",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/126.png",
@@ -467,29 +425,15 @@
       }
     ]
   },
-  {
-    "id": "product27",
-    "name": "Product 27",
-    "slug": "product-27",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/127.png",
-      "original": "/assets/images/products/127.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/127.png",
-        "thumbnail": "/assets/images/products/127.png"
-      }
-    ]
-  },
+
   {
     "id": "product28",
-    "name": "Product 28",
-    "slug": "product-28",
-    "description": "",
+    "name": "FT001",
+    "slug": "FT001",
+    "size": "70 * 79",
+    "quantity": "2000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/128.png",
@@ -503,29 +447,15 @@
       }
     ]
   },
-  {
-    "id": "product29",
-    "name": "Product 29",
-    "slug": "product-29",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/129.png",
-      "original": "/assets/images/products/129.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/129.png",
-        "thumbnail": "/assets/images/products/129.png"
-      }
-    ]
-  },
+
   {
     "id": "product30",
-    "name": "Product 30",
-    "slug": "product-30",
-    "description": "",
+    "name": "FJ001",
+    "slug": "FJ001",
+    "size": "39.2 * 26.5",
+    "quantity": "",
+    "madeFrom": "P.P",
+    "description": "Weldable Product",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/130.png",
@@ -541,9 +471,12 @@
   },
   {
     "id": "product31",
-    "name": "Product 31",
-    "slug": "product-31",
-    "description": "",
+    "name": "FT014",
+    "slug": "FT014",
+    "size": "92.5 * 120",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/131.png",
@@ -557,29 +490,15 @@
       }
     ]
   },
-  {
-    "id": "product32",
-    "name": "Product 32",
-    "slug": "product-32",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/132.png",
-      "original": "/assets/images/products/132.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/132.png",
-        "thumbnail": "/assets/images/products/132.png"
-      }
-    ]
-  },
+
   {
     "id": "product33",
-    "name": "Product 33",
-    "slug": "product-33",
-    "description": "",
+    "name": "FT002",
+    "slug": "FT002",
+    "size": "70 * 70",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/133.png",
@@ -596,9 +515,12 @@
 
   {
     "id": "product35",
-    "name": "Product 35",
-    "slug": "product-35",
-    "description": "",
+    "name": "FT024",
+    "slug": "FT024",
+    "size": "92.5 * 47",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/135.png",
@@ -614,9 +536,12 @@
   },
   {
     "id": "product36",
-    "name": "Product 36",
-    "slug": "product-36",
-    "description": "",
+    "name": "FT019",
+    "slug": "FT019",
+    "size": "92.5 * 54",
+    "quantity": "1000",
+    "madeFrom": "P.P",
+    "description": "Hot & Cold",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/136.png",
@@ -630,30 +555,14 @@
       }
     ]
   },
-
-  {
-    "id": "product39",
-    "name": "Product 39",
-    "slug": "product-39",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/139.png",
-      "original": "/assets/images/products/139.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/139.png",
-        "thumbnail": "/assets/images/products/139.png"
-      }
-    ]
-  },
   {
     "id": "product40",
-    "name": "Product 40",
-    "slug": "product-40",
-    "description": "",
+    "name": "FMB001",
+    "slug": "FMB001",
+    "size": "",
+    "quantity": "200",
+    "madeFrom": "P.P",
+    "description": "Hot",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/140.png",
@@ -667,29 +576,15 @@
       }
     ]
   },
-  {
-    "id": "product41",
-    "name": "Product 41",
-    "slug": "product-41",
-    "description": "",
-    "image": {
-      "id": 1,
-      "thumbnail": "/assets/images/products/141.png",
-      "original": "/assets/images/products/141.png"
-    },
-    "gallery": [
-      {
-        "id": 1,
-        "original": "/assets/images/products/141.png",
-        "thumbnail": "/assets/images/products/141.png"
-      }
-    ]
-  },
+
   {
     "id": "product42",
-    "name": "Product 42",
-    "slug": "product-42",
-    "description": "",
+    "name": "FMB002",
+    "slug": "FMB002",
+    "size": "",
+    "quantity": "200",
+    "madeFrom": "P.P",
+    "description": "Hot",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/142.png",
@@ -705,9 +600,12 @@
   },
   {
     "id": "product43",
-    "name": "Product 43",
-    "slug": "product-43",
-    "description": "",
+    "name": "FMB003",
+    "slug": "FMB003",
+    "size": "",
+    "quantity": "200",
+    "madeFrom": "P.P",
+    "description": "Hot",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/143.png",
@@ -723,9 +621,12 @@
   },
   {
     "id": "product44",
-    "name": "Product 44",
-    "slug": "product-44",
-    "description": "",
+    "name": "FMB004",
+    "slug": "FMB004",
+    "size": "",
+    "quantity": "200",
+    "madeFrom": "P.P",
+    "description": "Hot",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/144.png",

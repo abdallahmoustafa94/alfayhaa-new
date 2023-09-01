@@ -1,0 +1,21 @@
+{
+  "id": "product40",
+  "name": "FMB001",
+  "slug": "FMB001",
+  "size": "",
+  "quantity": "200",
+  "madeFrom": "P.P",
+  "description": "Hot",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/140.png",
+    "original": "/assets/images/products/140.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/140.png",
+      "thumbnail": "/assets/images/products/140.png"
+    }
+  ]
+}

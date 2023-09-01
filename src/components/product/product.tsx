@@ -135,6 +135,25 @@ const ProductSingleDetails: React.FC = () => {
                 {data?.name}
               </h2>
             </div>
+            <div className="text-13px sm:text-sm mt-auto">
+              {data?.description}
+            </div>
+            <div className="flex justify-between items-center mt-3">
+              <div className="text-13px sm:text-sm">Size</div>
+              <div className="text-13px sm:text-sm text-left">{data?.size}</div>
+            </div>
+            <div className="flex justify-between items-center mt-3">
+              <div className="text-13px sm:text-sm">Quantity</div>
+              <div className="text-13px sm:text-sm text-left">
+                {data?.quantity}
+              </div>
+            </div>
+            <div className="flex justify-between items-center mt-3">
+              <div className="text-13px sm:text-sm">Made From</div>
+              <div className="text-13px sm:text-sm text-left">
+                {data?.madeFrom}
+              </div>
+            </div>
             {/* {data?.unit && isEmpty(variations) ? (
               <div className="text-sm md:text-15px font-medium">
                 {data?.unit}

@@ -1,0 +1,21 @@
+{
+  "id": "product10",
+  "name": "FT017",
+  "slug": "FT017",
+  "size": "92.5 * 70",
+  "quantity": "1000",
+  "madeFrom": "P.P",
+  "description": "Hot & Cold",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/110.png",
+    "original": "/assets/images/products/110.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/110.png",
+      "thumbnail": "/assets/images/products/110.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "product2",
+  "name": "FW002",
+  "slug": "FW002",
+  "size": "70 * 70",
+  "quantity": "1000",
+  "madeFrom": "P.P",
+  "description": "Hot & Cold",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/102.png",
+    "original": "/assets/images/products/102.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/102.png",
+      "thumbnail": "/assets/images/products/102.png"
+    }
+  ]
+}

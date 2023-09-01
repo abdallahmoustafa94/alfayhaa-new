@@ -1,0 +1,21 @@
+{
+  "id": "product3",
+  "name": "FIW002",
+  "slug": "FIW002",
+  "size": "73.5 * 51.5",
+  "quantity": "1500",
+  "madeFrom": "P.P",
+  "description": "Weldable Product",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/103.png",
+    "original": "/assets/images/products/103.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/103.png",
+      "thumbnail": "/assets/images/products/103.png"
+    }
+  ]
+}
