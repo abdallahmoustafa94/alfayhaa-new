@@ -70,39 +70,39 @@ export const siteSettings = {
       {
         id: 1,
         path: '/',
-        label: 'home',
+        label: 'menu-home',
       },
       {
         id: 2,
-        path: '/search',
-        label: 'menu-categories',
-        subMenu: [
-          {
-            id: 1,
-            path: '/search',
-            label: 'menu-fresh-vegetables',
-          },
-          {
-            id: 2,
-            path: '/search',
-            label: 'menu-diet-nutrition',
-          },
-          {
-            id: 3,
-            path: '/search',
-            label: 'menu-healthy-foods',
-          },
-          {
-            id: 4,
-            path: '/search',
-            label: 'menu-grocery-items',
-          },
-          {
-            id: 5,
-            path: '/search',
-            label: 'menu-beaf-steak',
-          },
-        ],
+        path: '/products',
+        label: 'menu-products',
+        // subMenu: [
+        //   {
+        //     id: 1,
+        //     path: '/search',
+        //     label: 'menu-fresh-vegetables',
+        //   },
+        //   {
+        //     id: 2,
+        //     path: '/search',
+        //     label: 'menu-diet-nutrition',
+        //   },
+        //   {
+        //     id: 3,
+        //     path: '/search',
+        //     label: 'menu-healthy-foods',
+        //   },
+        //   {
+        //     id: 4,
+        //     path: '/search',
+        //     label: 'menu-grocery-items',
+        //   },
+        //   {
+        //     id: 5,
+        //     path: '/search',
+        //     label: 'menu-beaf-steak',
+        //   },
+        // ],
       },
 
       {
@@ -125,34 +125,10 @@ export const siteSettings = {
         icon: <SAFlag />,
       },
       {
-        id: 'zh',
-        name: '中国人 - ZH',
-        value: 'zh',
-        icon: <CNFlag />,
-      },
-      {
         id: 'en',
         name: 'English - EN',
         value: 'en',
         icon: <USFlag />,
-      },
-      {
-        id: 'de',
-        name: 'Deutsch - DE',
-        value: 'de',
-        icon: <DEFlag />,
-      },
-      {
-        id: 'he',
-        name: 'rעברית - HE',
-        value: 'he',
-        icon: <ILFlag />,
-      },
-      {
-        id: 'es',
-        name: 'Español - ES',
-        value: 'es',
-        icon: <ESFlag />,
       },
     ],
   },

@@ -30,9 +30,13 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
   }
   const router = useRouter();
   const dir = getDirection(router.locale);
+  const fontFamiliy = dir === 'rtl' ? 'Cairo, sans-serif' : 'Inter, sans-serif';
+
   useEffect(() => {
     document.documentElement.dir = dir;
+    document.body.style.fontFamily = fontFamiliy; // Apply the font-family to the body element
   }, [dir]);
+
   const Layout = (Component as any).Layout || Noop;
 
   return (

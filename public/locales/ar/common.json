@@ -1,4 +1,4 @@
-  {
+{
   "breadcrumb-home": "الصفحة الرئيسية",
   "app-heading": "اجعل التسوق عبر الإنترنت أسهل من خلال تطبيق الهاتف المحمول الخاص بنا",
   "app-description": "نحن نقدم أفلامًا عالية الجودة وأفضل اختيار وثائقي ، والقدرة على التصفح أبجديًا وحسب النوع",
@@ -32,9 +32,9 @@
   "error-heading": "404",
   "error-sub-heading": "نحن متأسفون! هذه الصفحة غير متوفرة حاليا. نطلب منك الرجاء المحاولة مرة أخرى لاحقا.",
   "contact-form-info-title": "الدعم هو أولويتنا الرئيسية",
-  "contact-form-info-content": "أنشأنا مكونات رد فعل قابلة لإعادة الاستخدام ، وبنية repo أحادية حديثة ، حتى تتمكن من بناء تطبيقات متعددة مع مكونات مشتركة. يمكنك استخدام هذه الهبوط لتطبيق رد الفعل الخاص بك. انها فائقة سهلة النشر، قدمنا التكامل قاعدة النار كاملة عليه.",
+  "contact-form-info-content": "شكرًا لاهتمامك بـ الفيحاء. نحن نقدر ملاحظاتك، استفساراتك، واقتراحاتك. لا تتردد في الاتصال بنا باستخدام أي من الوسائل التالية:",
   "order-page-title": "قائمة الطلبات الخاصة بي",
-  "order-page-input-placeholder": "قائمة ترتيب البحث", 
+  "order-page-input-placeholder": "قائمة ترتيب البحث",
   "order-table-action-one": "تفاصيل الطلب",
   "order-table-action-two": "إلغاء الأمر",
   "order-modal-heading": "تفاصيل الطلب",
@@ -123,12 +123,12 @@
   "text-share-profile-data-description": "مشاركة معلومات ملف التعريف الخاص بك لجمع نتيجة البحث عن المنتج",
   "text-ads-performance": "أداء الإعلانات",
   "text-ads-performance-description": "لتحسين نتيجة بحث إعلاناتك، نحتاج إلى تجميع سلوك ملفات تعريف الارتباط",
-  "text-office-location": "موقع المكتب",
-  "text-office-location-details": "2756 Quiet Valley Lane، Reseda، California، United Stats",
+  "text-office-location": "العنوان",
+  "text-office-location-details": "المنطقة الصناعية، برج العرب، الاسكندرية، مصر.",
   "text-email": "إرسال بريد",
-  "text-email-details": "support@demoagency.com Rental.us@demoteam.io",
+  "text-email-details": "info@alfayhaaplastic.com",
   "text-phone": "اتصل بنا في أي وقت",
-  "text-phone-details": "قم بتغيير التصميم من خلال نطاق +89 5631 564 +88 5321 036",
+  "text-phone-details": "+2 0111 032 2118",
   "text-contact-page-header": "هل تحتاج إلى دعم؟ فريقنا جاهز للمساعدة",
   "text-contact-page-explore": "نحن متحمسون لإنشاء منتجات مدروسة بعناية من شأنها تحسين سير عمل التصميم.",
   "text-account-details-personal": "المعلومات الشخصية",
@@ -228,5 +228,6 @@
   "text-shop-page": "صفحة التسوق",
   "text-all-shops": "جميع المتاجر",
   "text-more-info": "مزيد من المعلومات",
-  "text-details": "التفاصيل"
-  }
+  "text-details": "التفاصيل",
+  "products": "المنتجات"
+}

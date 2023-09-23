@@ -79,7 +79,7 @@ const Header: React.FC = () => {
           {/* End of search */}
 
           <div className="flex flex-shrink-0 space-s-5 xl:space-s-7">
-            {/* <LanguageSwitcher /> */}
+            <LanguageSwitcher />
             {/* <CartButton className="hidden lg:flex" />
             <div className="hidden lg:flex items-center flex-shrink-0 ">
               <UserIcon className="text-skin-base text-opacity-40" />

@@ -25,7 +25,7 @@ const SectionHeader: React.FC<Props> = ({
       })}
     >
       <Heading
-        variant="heading"
+        style={{ fontSize: '28px' }}
         className={cn({
           '3xl:text-[25px] 3xl:leading-9': headingPosition === 'center',
         })}

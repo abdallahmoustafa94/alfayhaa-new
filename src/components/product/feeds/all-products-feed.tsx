@@ -12,14 +12,18 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { LIMITS } from '@framework/utils/limits';
 import { Product } from '@framework/types';
+
 interface ProductFeedProps {
   element?: any;
   className?: string;
 }
+
 const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
   const { t } = useTranslation('common');
 
   const { query } = useRouter();
+  const { category } = query; // Get the category from the query params
+
   const {
     isFetching: isLoading,
     isFetchingNextPage: loadingMore,
@@ -35,10 +39,16 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
     openModal('CATEGORY_VIEW');
   }
 
+  // Filter products based on the category
+  const filteredProducts = data?.pages
+    ?.map((page) => page.data)
+    ?.flat()
+    ?.filter((product) => (category ? product.category === category : true));
+
   return (
     <div className={cn(className)}>
       <div className="flex items-center justify-between pb-0.5 mb-4 lg:mb-5 xl:mb-6">
-        <SectionHeader sectionHeading="Products" className="mb-0" />
+        <SectionHeader sectionHeading={t('products')} className="mb-0" />
         <div
           className="lg:hidden transition-all text-skin-primary -mt-1.5 font-semibold text-sm md:text-15px hover:text-skin-base"
           role="button"
@@ -50,7 +60,7 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
       {error ? (
         <Alert message={error?.message} />
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-3  lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-3 md:gap-4 2xl:gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-6 gap-3 md:gap-4 2xl:gap-5">
           {isLoading && !data?.pages?.length ? (
             Array.from({ length: LIMITS.PRODUCTS_LIMITS }).map((_, idx) => (
               <ProductCardLoader
@@ -60,28 +70,13 @@ const AllProductFeed: FC<ProductFeedProps> = ({ element, className = '' }) => {
             ))
           ) : (
             <>
-              {data?.pages?.map((page: any, index) => {
-                return (
-                  <Fragment key={index}>
-                    {page?.data?.slice(0, 18)?.map((product: Product) => (
-                      <ProductCard
-                        key={`product--key${product.id}`}
-                        product={product}
-                      />
-                    ))}
-                    {element && <div className="col-span-full">{element}</div>}
-                    {page?.data?.length! > 18 &&
-                      slice(page?.data, 18, page?.data?.length).map(
-                        (product: any) => (
-                          <ProductCard
-                            key={`product--key${product.id}`}
-                            product={product}
-                          />
-                        )
-                      )}
-                  </Fragment>
-                );
-              })}
+              {filteredProducts?.map((product: Product) => (
+                <ProductCard
+                  key={`product--key${product.id}`}
+                  product={product}
+                />
+              ))}
+              {element && <div className="col-span-full">{element}</div>}
             </>
           )}
         </div>

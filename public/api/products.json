@@ -7,6 +7,7 @@
     "quantity": "1200",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/101.png",
@@ -28,6 +29,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/102.png",
@@ -49,6 +51,7 @@
     "quantity": "1500",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "sauce",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/103.png",
@@ -70,6 +73,7 @@
     "quantity": "1500",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "sauce",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/104.png",
@@ -91,6 +95,7 @@
     "quantity": "1000 - 1500",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/105.png",
@@ -112,6 +117,7 @@
     "quantity": "2000",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "sauce",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/106.png",
@@ -134,6 +140,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/108.png",
@@ -155,6 +162,7 @@
     "quantity": "2000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/109.png",
@@ -176,6 +184,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/110.png",
@@ -198,6 +207,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/112.png",
@@ -219,6 +229,7 @@
     "quantity": "1000 - 1500",
     "madeFrom": "P.P",
     "description": "",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/113.png",
@@ -240,6 +251,7 @@
     "quantity": "2000",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "sauce",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/114.png",
@@ -261,6 +273,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/115.png",
@@ -282,6 +295,7 @@
     "quantity": "1000 - 1500",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/116.png",
@@ -304,6 +318,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/118.png",
@@ -325,6 +340,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/119.png",
@@ -347,6 +363,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/121.png",
@@ -369,6 +386,7 @@
     "quantity": "1500",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "sauce",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/123.png",
@@ -390,6 +408,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "juices",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/124.png",
@@ -412,6 +431,7 @@
     "quantity": "",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "food",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/126.png",
@@ -434,6 +454,7 @@
     "quantity": "2000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/128.png",
@@ -456,6 +477,7 @@
     "quantity": "",
     "madeFrom": "P.P",
     "description": "Weldable Product",
+    "category": "food",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/130.png",
@@ -477,6 +499,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "juices",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/131.png",
@@ -499,6 +522,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "cups",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/133.png",
@@ -521,6 +545,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/135.png",
@@ -542,6 +567,7 @@
     "quantity": "1000",
     "madeFrom": "P.P",
     "description": "Hot & Cold",
+    "category": "icecream",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/136.png",
@@ -563,6 +589,7 @@
     "quantity": "200",
     "madeFrom": "P.P",
     "description": "Hot",
+    "category": "food",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/140.png",
@@ -585,6 +612,7 @@
     "quantity": "200",
     "madeFrom": "P.P",
     "description": "Hot",
+    "category": "food",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/142.png",
@@ -606,6 +634,7 @@
     "quantity": "200",
     "madeFrom": "P.P",
     "description": "Hot",
+    "category": "food",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/143.png",
@@ -627,6 +656,7 @@
     "quantity": "200",
     "madeFrom": "P.P",
     "description": "Hot",
+    "category": "food",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/144.png",

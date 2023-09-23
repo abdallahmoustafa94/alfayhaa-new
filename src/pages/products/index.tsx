@@ -10,29 +10,30 @@ import { useTranslation } from 'next-i18next';
 import SearchTopBar from '@components/search/search-top-bar';
 import { Element } from 'react-scroll';
 import Seo from '@components/seo/seo';
+import CategoryDropdownSidebar from '@components/category/category-dropdown-sidebar';
+import AllProductFeed from '@components/product/feeds/all-products-feed';
 
 export default function Products() {
   const { t } = useTranslation('common');
   return (
     <>
       <Seo
-        title="Products"
-        description="Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
-        path="products"
+        title="مصنع الفيحاء للبلاستيك"
+        description="نوفر لعملائنا منتجات وخدمات صناعية ذات جودة عالية تتواكب مع تطلُّعاتهم مقابل أسعارٍ منافِسة « الخلاصة"
+        path="vintage"
       />
-      <PageHeroSection heroTitle={t('text-all-grocery-items')} />
+
       <Container>
-        <Element name="grid" className="flex pt-7 lg:pt-11 pb-16 lg:pb-20">
-          <div className="flex-shrink-0 pe-8 xl:pe-16 hidden lg:block w-80 xl:w-96 sticky top-16 h-full">
-            <ShopFilters />
-          </div>
-          <div className="w-full lg:-ms-2 xl:-ms-8 lg:-mt-1">
-            <SearchTopBar />
-            <ProductGrid />
-          </div>
+        {/* <BundleGrid data={bundle} /> */}
+        <Element name="grid" className="flex mb-16 pb-2.5">
+          <CategoryDropdownSidebar className="flex-shrink-0 pe-8 xl:pe-16 hidden lg:block w-80 xl:w-[400px]" />
+          <AllProductFeed
+            className="w-full xl:-ms-8"
+            // element={<BannerCard banner={banner} className="py-5" />}
+          />
         </Element>
       </Container>
-      <DownloadApps />
+      {/* <DownloadApps /> */}
     </>
   );
 }

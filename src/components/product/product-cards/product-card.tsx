@@ -9,19 +9,22 @@ import { useCart } from '@contexts/cart/cart.context';
 import { AddToCart } from '@components/product/add-to-cart';
 import { useTranslation } from 'next-i18next';
 import { productPlaceholder } from '@assets/placeholders';
+import { useEffect, useState } from 'react';
 
 interface ProductProps {
   product: Product;
   className?: string;
 }
 function RenderPopupOrAddToCart({ data }: { data: Product }) {
-  const { t } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
   const { id, quantity, product_type } = data ?? {};
   const { width } = useWindowSize();
   const { openModal } = useModalAction();
   const { isInCart, isInStock } = useCart();
   const iconSize = width! > 1024 ? '19' : '17';
   const outOfStock = isInCart(id) && !isInStock(id);
+  const isRtl = i18n.language === 'ar';
+
   function handlePopupView() {
     openModal('PRODUCT_VIEW', data);
   }
@@ -57,7 +60,9 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
     madeFrom,
   } = product ?? {};
   const { openModal } = useModalAction();
+  const [productDescription, setProductDescription] = useState('');
   const { t } = useTranslation('common');
+  const { i18n } = useTranslation();
   const { price, basePrice, discount } = usePrice({
     amount: product?.sale_price ? product?.sale_price : product?.price,
     baseAmount: product?.price,
@@ -72,9 +77,52 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
     currencyCode: 'USD',
   });
 
+  const isRtl = i18n.language === 'ar';
+
   function handlePopupView() {
     openModal('PRODUCT_VIEW', product);
   }
+
+  useEffect(() => {
+    const updatedDescription = description || '';
+    switch (isRtl) {
+      case true:
+        // When isRtl is true, set the Arabic descriptions
+        switch (updatedDescription) {
+          case 'Hot & Cold':
+            setProductDescription('بارد وساخن');
+            break;
+          case 'Weldable Product':
+            setProductDescription('منتج قابل للحام');
+            break;
+          case 'Hot':
+            setProductDescription('ساخن');
+            break;
+          default:
+            setProductDescription(updatedDescription);
+        }
+        break;
+      case false:
+        // When isRtl is false, set the English descriptions
+        switch (updatedDescription) {
+          case 'Hot & Cold':
+            setProductDescription('Hot & Cold');
+            break;
+          case 'Weldable Product':
+            setProductDescription('Weldable Product');
+            break;
+          case 'Hot':
+            setProductDescription('Hot');
+            break;
+          default:
+            setProductDescription(updatedDescription);
+        }
+        break;
+      default:
+        setProductDescription(updatedDescription);
+    }
+  }, [description, isRtl]);
+
   return (
     <article
       className={cn(
@@ -105,17 +153,23 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
         <h2 className="text-skin-base text-13px sm:text-sm lg:text-15px leading-5 sm:leading-6 mb-1.5">
           {name}
         </h2>
-        <div className="text-13px sm:text-sm mt-auto">{description}</div>
+        <div className="text-13px sm:text-sm mt-auto">{productDescription}</div>
         <div className="flex justify-between items-center mt-3">
-          <div className="text-13px sm:text-sm">Size</div>
+          <div className="text-13px sm:text-sm">
+            <Image src="/assets/images/size.png" width={30} height={30} />
+          </div>
           <div className="text-13px sm:text-sm text-left">{size}</div>
         </div>
         <div className="flex justify-between items-center mt-3">
-          <div className="text-13px sm:text-sm">Quantity</div>
+          <div className="text-13px sm:text-sm">
+            <Image src="/assets/images/quantity.png" width={30} height={30} />
+          </div>
           <div className="text-13px sm:text-sm text-left">{quantity}</div>
         </div>
         <div className="flex justify-between items-center mt-3">
-          <div className="text-13px sm:text-sm">Made From</div>
+          <div className="text-13px sm:text-sm">
+            <Image src="/assets/images/madeFrom.png" width={30} height={30} />
+          </div>
           <div className="text-13px sm:text-sm text-left">{madeFrom}</div>
         </div>
       </div>

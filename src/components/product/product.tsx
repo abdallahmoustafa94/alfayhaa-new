@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { ROUTES } from '@utils/routes';
 import useWindowSize from '@utils/use-window-size';
@@ -34,6 +34,7 @@ const ProductSingleDetails: React.FC = () => {
   const [addToWishlistLoader, setAddToWishlistLoader] =
     useState<boolean>(false);
   const [shareButtonStatus, setShareButtonStatus] = useState<boolean>(false);
+  const [productDescription, setProductDescription] = useState('');
   const productUrl = `${process.env.NEXT_PUBLIC_SITE_URL}${ROUTES.PRODUCT}/${router.query.slug}`;
   const { price, basePrice, discount } = usePrice(
     data && {
@@ -42,9 +43,51 @@ const ProductSingleDetails: React.FC = () => {
       currencyCode: 'USD',
     }
   );
+  const { i18n } = useTranslation();
+  const isRtl = i18n.language === 'ar';
   const handleChange = () => {
     setShareButtonStatus(!shareButtonStatus);
   };
+
+  useEffect(() => {
+    const updatedDescription = data?.description || '';
+    switch (isRtl) {
+      case true:
+        // When isRtl is true, set the Arabic descriptions
+        switch (updatedDescription) {
+          case 'Hot & Cold':
+            setProductDescription('بارد وساخن');
+            break;
+          case 'Weldable Product':
+            setProductDescription('منتج قابل للحام');
+            break;
+          case 'Hot':
+            setProductDescription('ساخن');
+            break;
+          default:
+            setProductDescription(updatedDescription);
+        }
+        break;
+      case false:
+        // When isRtl is false, set the English descriptions
+        switch (updatedDescription) {
+          case 'Hot & Cold':
+            setProductDescription('Hot & Cold');
+            break;
+          case 'Weldable Product':
+            setProductDescription('Weldable Product');
+            break;
+          case 'Hot':
+            setProductDescription('Hot');
+            break;
+          default:
+            setProductDescription(updatedDescription);
+        }
+        break;
+      default:
+        setProductDescription(updatedDescription);
+    }
+  }, [data?.description, isRtl]);
   if (isLoading) return <p>Loading...</p>;
   const variations = getVariations(data?.variations);
 
@@ -136,20 +179,35 @@ const ProductSingleDetails: React.FC = () => {
               </h2>
             </div>
             <div className="text-13px sm:text-sm mt-auto">
-              {data?.description}
+              {productDescription}
             </div>
             <div className="flex justify-between items-center mt-3">
-              <div className="text-13px sm:text-sm">Size</div>
+              <div className="text-13px sm:text-sm">
+                <Image src="/assets/images/size.png" width={30} height={30} />
+              </div>
               <div className="text-13px sm:text-sm text-left">{data?.size}</div>
             </div>
             <div className="flex justify-between items-center mt-3">
-              <div className="text-13px sm:text-sm">Quantity</div>
+              <div className="text-13px sm:text-sm">
+                <Image
+                  src="/assets/images/quantity.png"
+                  width={30}
+                  height={30}
+                />
+              </div>
               <div className="text-13px sm:text-sm text-left">
                 {data?.quantity}
               </div>
             </div>
             <div className="flex justify-between items-center mt-3">
-              <div className="text-13px sm:text-sm">Made From</div>
+              <div className="text-13px sm:text-sm">
+                {' '}
+                <Image
+                  src="/assets/images/madeFrom.png"
+                  width={30}
+                  height={30}
+                />
+              </div>
               <div className="text-13px sm:text-sm text-left">
                 {data?.madeFrom}
               </div>
