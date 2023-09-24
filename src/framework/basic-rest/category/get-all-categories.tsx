@@ -23,7 +23,7 @@ export const useCategoriesQuery = (options: CategoriesQueryOptionsType) => {
   );
 };
 
-const fetchCategories = async (
+export const fetchCategories = async (
   { queryKey }: any,
   categoriesEndpoint: string
 ) => {
