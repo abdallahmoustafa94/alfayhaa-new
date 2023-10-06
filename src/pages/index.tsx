@@ -28,11 +28,8 @@ export default function Home() {
         description="نوفر لعملائنا منتجات وخدمات صناعية ذات جودة عالية تتواكب مع تطلُّعاتهم مقابل أسعارٍ منافِسة « الخلاصة"
         path="vintage"
       />
-      <HeroSliderBlock
-        heroBanner={heroBanner}
-        contentClassName="pb-24 xl:pb-32 pt-16 xl:pt-24"
-      />
-      <Container>
+      <HeroSliderBlock />
+      <Container className="mt-4">
         {/* <BundleGrid data={bundle} /> */}
         <Element name="grid" className="flex mb-16 pb-2.5">
           <CategoryDropdownSidebar className="flex-shrink-0 pe-8 xl:pe-16 hidden lg:block w-80 xl:w-[400px]" />

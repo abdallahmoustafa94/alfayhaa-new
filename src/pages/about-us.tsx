@@ -17,7 +17,7 @@ const aboutUs5 = '/assets/images/about-us/5.png';
 const aboutUs6 = '/assets/images/about-us/6.png';
 
 export default function TermsPage() {
-  const { t } = useTranslation('about');
+  const { t } = useTranslation(['about']);
   return (
     <>
       <Seo
@@ -35,58 +35,81 @@ export default function TermsPage() {
       <div className="py-8 lg:py-16 2xl:py-20">
         <Container>
           <div className="flex flex-col w-full mx-auto max-w-[1200px]">
-            <h2 className="text-lg md:text-xl lg:text-[24px] text-skin-base font-semibold mb-4 lg:mb-7">
-              {t(aboutSetting.titleOne)}
+            <h2 className="text-4xl font-bold text-black">
+              {t(aboutSetting.about)}
             </h2>
             <div
-              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose"
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
               dangerouslySetInnerHTML={{
-                __html: t(aboutSetting.descriptionOne),
+                __html: t(aboutSetting.point1),
               }}
             />
-
-<h2 className="text-lg md:text-xl lg:text-[24px] text-skin-base font-semibold mb-4 lg:mb-7 mt-8">
-              {t(aboutSetting.titleTwo)}
-            </h2>
-            <div
-              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose"
-              dangerouslySetInnerHTML={{
-                __html: t(aboutSetting.descriptionTwo),
-              }}
-            />
-                <div
-              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-4"
-              dangerouslySetInnerHTML={{
-                __html: t(aboutSetting.descriptionThree),
-              }}
-            />
-
-<h2 className="text-lg md:text-xl lg:text-[24px] text-skin-base font-semibold mb-4 lg:mb-7 mt-8">
-              {t(aboutSetting.titleThree)}
-            </h2>
 
             <div
-              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-4"
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
               dangerouslySetInnerHTML={{
-                __html: t(aboutSetting.descriptionFour),
+                __html: t(aboutSetting.point2),
               }}
             />
-
-<h2 className="text-lg md:text-xl lg:text-[24px] text-skin-base font-semibold mb-4 lg:mb-7 mt-8">
-              {t(aboutSetting.titleFour)}
-            </h2>
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point3),
+              }}
+            />
 
             <div
-              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-4"
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
               dangerouslySetInnerHTML={{
-                __html: t(aboutSetting.descriptionFive),
+                __html: t(aboutSetting.point4),
               }}
             />
-          
+
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point5),
+              }}
+            />
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point6),
+              }}
+            />
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point7),
+              }}
+            />
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point8),
+              }}
+            />
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point9),
+              }}
+            />
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point10),
+              }}
+            />
+            <div
+              className="text-skin-base opacity-70 text-sm leading-7 lg:text-15px lg:leading-loose mt-5"
+              dangerouslySetInnerHTML={{
+                __html: t(aboutSetting.point11),
+              }}
+            />
           </div>
         </Container>
       </div>
-
     </>
   );
 }

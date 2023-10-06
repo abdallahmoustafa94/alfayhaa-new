@@ -7,7 +7,10 @@ function withOpacity(variableName) {
   };
 }
 
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+
+
+module.exports = withMT({
   mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false,
@@ -160,4 +163,4 @@ module.exports = {
     }),
     require('tailwindcss-rtl'),
   ],
-};
+});

@@ -10,6 +10,7 @@ import { ToastContainer } from 'react-toastify';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { appWithTranslation } from 'next-i18next';
 import { DefaultSeo } from '@components/seo/default-seo';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // external
 import 'react-toastify/dist/ReactToastify.css';
