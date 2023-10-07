@@ -168,7 +168,9 @@ const ProductCard: React.FC<ProductProps> = ({ product, className }) => {
         </div>
         <div className="flex justify-between items-center mt-3">
           <div className="text-13px sm:text-sm">
-            <Image src="/assets/images/madeFrom.png" width={30} height={30} />
+            <div className="text-13px sm:text-sm text-left">
+              {isRtl ? 'مصنوع من' : 'Made From'}
+            </div>
           </div>
           <div className="text-13px sm:text-sm text-left">{madeFrom}</div>
         </div>
