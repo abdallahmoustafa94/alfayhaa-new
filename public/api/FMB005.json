@@ -1,0 +1,22 @@
+{
+  "id": "product49",
+  "name": "FMB005",
+  "slug": "FMB005",
+  "size": "149.5",
+  "quantity": "1000",
+  "madeFrom": "P.E.T",
+  "description": "Hot",
+  "category": "food",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/149.png",
+    "original": "/assets/images/products/149.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/149.png",
+      "thumbnail": "/assets/images/products/149.png"
+    }
+  ]
+}

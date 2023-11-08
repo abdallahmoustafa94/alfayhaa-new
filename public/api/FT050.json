@@ -1,0 +1,22 @@
+{
+  "id": "product47",
+  "name": "FT050",
+  "slug": "FT050",
+  "size": "92.5",
+  "quantity": "1000",
+  "madeFrom": "P.E.T",
+  "description": "Hot & Cold",
+  "category": "cups",
+  "image": {
+    "id": 1,
+    "thumbnail": "/assets/images/products/147.png",
+    "original": "/assets/images/products/147.png"
+  },
+  "gallery": [
+    {
+      "id": 1,
+      "original": "/assets/images/products/147.png",
+      "thumbnail": "/assets/images/products/147.png"
+    }
+  ]
+}
