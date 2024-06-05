@@ -1,3 +1,4 @@
+import React from 'react';
 import { useSessionStorage } from 'react-use';
 import Image from '@components/ui/image';
 import HighlightedBar from '@components/common/highlighted-bar';
@@ -16,7 +17,7 @@ const Layout: React.FC = ({ children }) => {
 
   return (
     <div className="flex flex-col min-h-screen">
-{/*       {highlightedBar !== 'true' && (
+      {/* {highlightedBar !== 'true' && (
         <HighlightedBar onClose={() => setHighlightedBar('true')}>
           <div className="flex items-center">
             <p
@@ -24,26 +25,27 @@ const Layout: React.FC = ({ children }) => {
                 __html: t('text-highlighted-bar'),
               }}
             />
-          </div>
+          </div> */}
+          {/* Uncomment the Countdown component if needed */}
           {/* <Countdown date={Date.now() + 4000000 * 71} /> */}
-{/*         </HighlightedBar>
+        {/* </HighlightedBar>
       )} */}
       {/* End of highlighted bar  */}
-
-{/*       <Header />
+{/* 
+      <Header />
       <MobileNavigation /> */}
 
-{/*       <main
+      <main
         className="relative flex-grow"
         style={{
           WebkitOverflowScrolling: 'touch',
         }}
       >
         {children}
-      </main> */}
-{/*       <Footer /> */}
-    </div> 
-// */}
+      </main>
+
+      {/* <Footer /> */}
+    </div>
   );
 };
 
