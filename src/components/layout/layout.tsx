@@ -26,23 +26,24 @@ const Layout: React.FC = ({ children }) => {
             />
           </div>
           {/* <Countdown date={Date.now() + 4000000 * 71} /> */}
-        </HighlightedBar>
-      )}
+{/*         </HighlightedBar>
+      )} */}
       {/* End of highlighted bar  */}
 
-      <Header />
-      <MobileNavigation />
+{/*       <Header />
+      <MobileNavigation /> */}
 
-      <main
+{/*       <main
         className="relative flex-grow"
         style={{
           WebkitOverflowScrolling: 'touch',
         }}
       >
         {children}
-      </main>
-      <Footer /> */}
-    </div>
+      </main> */}
+{/*       <Footer /> */}
+    </div> 
+// */}
   );
 };
 
