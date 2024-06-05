@@ -32,14 +32,14 @@ export default function Home() {
       <HeroSliderBlock />
       <Container className="mt-4">
         {/* <BundleGrid data={bundle} /> */}
-        <Element name="grid" className="flex mb-16 pb-2.5">
-          <CategoryDropdownSidebar className="flex-shrink-0 pe-8 xl:pe-16 hidden lg:block w-80 xl:w-[400px]" />
+        {/* <Element name="grid" className="flex mb-16 pb-2.5"> */}
+          {/* <CategoryDropdownSidebar className="flex-shrink-0 pe-8 xl:pe-16 hidden lg:block w-80 xl:w-[400px]" />
           <AllProductFeed
             className="w-full xl:-ms-8"
             // element={<BannerCard banner={banner} className="py-5" />}
-          />
-        </Element>
-      </Container> */}
+          /> */}
+        {/* </Element>
+      </Container> */} */}
       {/* <DownloadApps /> */}
     </div>
   );
