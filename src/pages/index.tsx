@@ -39,7 +39,7 @@ export default function Home() {
             // element={<BannerCard banner={banner} className="py-5" />}
           /> */}
         {/* </Element>
-      </Container> */} */}
+      </Container> */} 
       {/* <DownloadApps /> */}
     </div>
   );
