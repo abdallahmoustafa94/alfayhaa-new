@@ -16,7 +16,7 @@ const Layout: React.FC = ({ children }) => {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {highlightedBar !== 'true' && (
+{/*       {highlightedBar !== 'true' && (
         <HighlightedBar onClose={() => setHighlightedBar('true')}>
           <div className="flex items-center">
             <p
@@ -41,7 +41,7 @@ const Layout: React.FC = ({ children }) => {
       >
         {children}
       </main>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
