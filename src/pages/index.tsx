@@ -22,8 +22,9 @@ import { LIMITS } from '@framework/utils/limits';
 
 export default function Home() {
   return (
-    <>
-      <Seo
+    <div style={{display:"flex",flexDirection:"column", justifyContent : "center", alignItems : "center"}}>
+      <h1>Internal Server Error</h1>
+{/*       <Seo
         title="مصنع الفيحاء للبلاستيك"
         description="نوفر لعملائنا منتجات وخدمات صناعية ذات جودة عالية تتواكب مع تطلُّعاتهم مقابل أسعارٍ منافِسة « الخلاصة"
         path="vintage"
@@ -38,9 +39,9 @@ export default function Home() {
             // element={<BannerCard banner={banner} className="py-5" />}
           />
         </Element>
-      </Container>
+      </Container> */}
       {/* <DownloadApps /> */}
-    </>
+    </div>
   );
 }
 
